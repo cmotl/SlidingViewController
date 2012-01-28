@@ -12,7 +12,7 @@
 	UIView *slidingView;
 }
 
-@property (nonatomic, retain) UIView *slidingView;
+@property (nonatomic, strong) UIView *slidingView;
 
 
 -(void)viewTouched;

@@ -76,11 +76,4 @@
 }
 
 
-- (void)dealloc {
-	[slidingViewController release];
-    [window release];
-    [super dealloc];
-}
-
-
 @end

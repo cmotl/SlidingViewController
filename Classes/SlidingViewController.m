@@ -25,8 +25,6 @@ typedef enum {
     
     UITapGestureRecognizer *recognizer;
     UITapGestureRecognizer *slidingRecognizer;
-    UISwipeGestureRecognizer *slidingSwipeDownRecognizer;
-    UISwipeGestureRecognizer *slidingSwipeUpRecognizer;
     UIPanGestureRecognizer *panRecognizer;
     
     CGFloat startX;
@@ -38,13 +36,12 @@ typedef enum {
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	self.view = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)] autorelease];
+	self.view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
 	self.view.backgroundColor = [UIColor greenColor];
 	
 	recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideSlidingView)];
 	recognizer.delegate = self;
 	[self.view addGestureRecognizer:recognizer];
-	//[recognizer release];
     
 	self.slidingView = [[UIView alloc] initWithFrame:CGRectMake(0, 480-SLIDING_VIEW_VISIBLE_HEIGHT, 320, SLIDING_VIEW_HEIGHT)];
 	self.slidingView.backgroundColor = [UIColor blackColor];
@@ -55,14 +52,12 @@ typedef enum {
     slidingRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTouched)];
 	slidingRecognizer.delegate = self;
 	[self.slidingView addGestureRecognizer:slidingRecognizer];
-	//[slidingRecognizer release];
     
     panRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(move:)];
     [panRecognizer setMinimumNumberOfTouches:1];
     [panRecognizer setMaximumNumberOfTouches:1];
     [panRecognizer setDelegate:self];
     [slidingView addGestureRecognizer:panRecognizer];
-    //[panRecognizer release];
     
 	[self.view addSubview:slidingView];
 }
@@ -199,9 +194,6 @@ typedef enum {
     else if (touch.view == slidingView && gestureRecognizer == panRecognizer) {
         return YES;
     }
-    else if (touch.view == slidingView && gestureRecognizer == slidingSwipeUpRecognizer) {
-        return YES;
-    }
     else if(touch.view == self.view && gestureRecognizer == recognizer) {
         return YES;
     }
@@ -210,8 +202,6 @@ typedef enum {
         return NO;
     }
 }
-
-
 
 -(void)hideSlidingView{
 	[UIView beginAnimations:nil context:nil];
@@ -230,117 +220,6 @@ typedef enum {
 	[UIView commitAnimations];
 }
 
-
-
-
-
-
-/*
-
--(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    UITouch *touch = [[event allTouches] anyObject];
-    
-    if( [touch view] == slidingView)
-    {
-        CGPoint location = [touch locationInView:self.view];
-        startY = location.y - slidingView.center.y;        
-        startX = slidingView.center.x;
-    }
-}
-
-
-- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-    
-    UITouch *touch = [[event allTouches] anyObject];
-    
-    if( [touch view] == slidingView)
-    {
-        CGPoint location = [touch locationInView:self.view];
-        
-
-        
-        if(location.y - startY <= 480-slidingView.frame.size.height/2)
-        {
-            location.y = 480 - slidingView.frame.size.height/2;
-        }
-        else if(location.y - startY >= 480 + slidingView.frame.size.height/2 - SLIDING_VIEW_VISIBLE_HEIGHT)
-        {
-            location.y = 480 + slidingView.frame.size.height/2 - SLIDING_VIEW_VISIBLE_HEIGHT;
-        }
-        else
-        {
-            location.y = location.y - startY;
-        }
-        
-        
-        location.x = startX;
-        slidingView.center = location;
-        
-    }
-}
-
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
-    
-    UITouch *touch = [[event allTouches] anyObject];
-    
-    if( [touch view] == slidingView)
-    {
-        /*CGPoint location = [touch locationInView:self.view];
-        
-        CGFloat max_length_from_edge = slidingView.frame.size.height/2;
-        CGFloat actual_length_from_edge = 480 - slidingView.frame.origin.y - SLIDING_VIEW_VISIBLE_HEIGHT/2;
-        
-
-        CGFloat animation_duration = 0.3;
-        
-        printf("%f - %f\n", actual_length_from_edge, max_length_from_edge);
-        
-        if(actual_length_from_edge > max_length_from_edge)
-        {   
-            location.y = 480 - slidingView.frame.size.height/2;
-        }
-        else
-        {
-            location.y = 480 + slidingView.frame.size.height/2 - SLIDING_VIEW_VISIBLE_HEIGHT;
-        }
-        
-        location.x = startX;
-        
-        [UIView animateWithDuration:animation_duration
-                         animations:^{ 
-                             slidingView.center = location;
-                         } 
-                         completion:^(BOOL finished){
-                             ;
-                         }];
-         *
-        
-        
-        CGFloat slidingViewUpYCoordinate = 480 - SLIDING_VIEW_HEIGHT;
-        CGFloat slidingViewDownYCoordinate = 480 - SLIDING_VIEW_VISIBLE_HEIGHT;
-        
-        
-        /*
-        printf("Up Y Coord: %f\n", slidingViewUpYCoordinate);
-        printf("Down Y Coord: %f\n", slidingViewDownYCoordinate);
-        printf("Current Y Coord: %f\n", slidingView.frame.origin.y);
-        printf("Current Position: %s\n\n", direction == DOWN ? "Down" : "Up");
-        *
-        
-        if (direction == UP && slidingView.frame.origin.y > slidingViewUpYCoordinate)
-        {
-            printf("Up, and sliding down\n");
-            [self slideDown];
-        }
-        else if (direction == DOWN && slidingView.frame.origin.y < slidingViewDownYCoordinate)
-        {
-            printf("Down, and sliding up\n");
-            [self slideUp];
-        }
-    }
-}*/
-
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
@@ -354,16 +233,5 @@ typedef enum {
     // e.g. self.myOutlet = nil;
 	self.slidingView = nil;
 }
-
-
-- (void)dealloc {
-	[slidingView release];
-    [super dealloc];
-}
-
-
-
-
-
 
 @end

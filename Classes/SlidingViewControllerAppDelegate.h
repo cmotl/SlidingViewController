@@ -15,8 +15,8 @@
 	SlidingViewController *slidingViewController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) SlidingViewController *slidingViewController;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) SlidingViewController *slidingViewController;
 
 @end
 
