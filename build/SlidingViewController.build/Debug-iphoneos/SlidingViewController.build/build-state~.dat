@@ -1,0 +1,319 @@
+TSlidingViewController
+v7
+r0
+t317448219.538605
+cCheck dependencies
+cCpResource build/Debug-iphoneos/SlidingViewController.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/Info.plist" SlidingViewController-Info.plist
+cProcessPCH /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch.gch SlidingViewController_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch.gch SlidingViewController_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/main.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewControllerAppDelegate.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/main.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewControllerAppDelegate.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision" "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision
+c000000004D349AB30000000000001C86
+t1295293107
+s7302
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.h
+c000000004D3BA755000000000000016D
+t1295755093
+s365
+i<UIKit/UIKit.h>
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m
+c000000004D3BA89A0000000000000A52
+t1295755418
+s2642
+i"SlidingViewControllerAppDelegate.h"
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/MainWindow.xib
+c000000004D3BA755000000000000214E
+t1295755093
+s8526
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController_Prefix.pch
+c000000004D3BA75500000000000000D3
+t1295755093
+s211
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app.dSYM
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/Info.plist
+t1295755418
+s812
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/MainWindow.nib
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/PkgInfo
+t1295755418
+s8
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/ResourceRules.plist
+t1295755418
+s485
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/SlidingViewController
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision
+t1295755419
+s7302
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewController
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewController.LinkFileList
+c000000004D3BA89A000000000000015C
+t1295755418
+s348
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewControllerAppDelegate.o
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/main.o
+t1295755419
+s6760
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewController
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewController.LinkFileList
+c000000004D3BA89A000000000000015C
+t1295755418
+s348
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewControllerAppDelegate.o
+t2
+s0
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/main.o
+t1295755419
+s6732
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent
+t1295755419
+s448
+
+N/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m
+c000000004D3BA7FC0000000000000193
+t1295755260
+s403
+i<UIKit/UIKit.h>
+
+N/var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch.gch
+t1295755419
+s10446552
+
+N/var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch.gch
+t1295755419
+s9983704
+
+NSlidingViewController-Info.plist
+c000000004D3BA7E40000000000000356
+t1295755236
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317448218#317448218#0(0"0(0#1#0"8626559392#0"0#
+
+CCodeSign "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app"
+r0
+
+CCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewControllerAppDelegate.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317448219.394430
+e317448219.468866
+r0
+xCompileC
+xbuild/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewControllerAppDelegate.o
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m: In function '-[SlidingViewControllerAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: expected ':' before ']' token
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'
+lSLF07#2@105"Compile /Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448219#317448219#0(494"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m: In function '-[SlidingViewControllerAppDelegate application:didFinishLaunchingWithOptions:]':/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: expected ':' before ']' token/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'2(4@29"Expected ':' before ']' token317448219#193#139#0(6@97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448218#22#0#22#0#19"expected * before *0(4@52"Incompatible type for argument 1 of 'initWithFrame:'317448219#332#162#0(6@97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448218#22#0#22#0#0"0(0#0#97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m8624674368#2266"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv6" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -include /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewControllerAppDelegate.o"1#
+
+CCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/main.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317448219.393415
+e317448219.498860
+r1
+xCompileC
+xbuild/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/main.o
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cmotl/Projects/New iPhone/SlidingViewController/main.m317448219#317448219#0(0"0(0#0#61"/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m8600372864#2202"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv6" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -include /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewControllerAppDelegate.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317448219.396870
+e317448219.499230
+r0
+xCompileC
+xbuild/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewControllerAppDelegate.o
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m: In function '-[SlidingViewControllerAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: expected ':' before ']' token
+o/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'
+lSLF07#2@105"Compile /Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448219#317448219#0(494"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m: In function '-[SlidingViewControllerAppDelegate application:didFinishLaunchingWithOptions:]':/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: expected ':' before ']' token/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'2(4@29"Expected ':' before ']' token317448219#193#139#0(6@97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448218#22#0#22#0#19"expected * before *0(4@52"Incompatible type for argument 1 of 'initWithFrame:'317448219#332#162#0(6@97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m317448218#22#0#22#0#0"0(0#0#97"/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m8624997312#2266"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv7" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -include /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/Classes/SlidingViewControllerAppDelegate.m" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewControllerAppDelegate.o"1#
+
+CCompileC build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/main.o "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317448219.395461
+e317448219.498566
+r1
+xCompileC
+xbuild/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/main.o
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cmotl/Projects/New iPhone/SlidingViewController/main.m317448219#317448219#0(0"0(0#0#61"/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m8601888704#2202"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv7" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -include /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/main.m" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/cmotl/Projects/New iPhone/SlidingViewController/MainWindow.xib"
+r0
+
+CCpResource build/Debug-iphoneos/SlidingViewController.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317448218.445143
+e317448218.477665
+r1
+xCpResource
+xbuild/Debug-iphoneos/SlidingViewController.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317448218#317448218#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8603325760#544"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app"0#
+
+CCreateUniversalBinary "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/SlidingViewController" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app.dSYM" "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/SlidingViewController"
+r0
+
+CLd "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv6/SlidingViewController" normal armv6
+r0
+
+CLd "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/Objects-normal/armv7/SlidingViewController" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/Info.plist" SlidingViewController-Info.plist
+s317448218.446029
+e317448218.477434
+r1
+xProcessInfoPlistFile
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/Info.plist
+xSlidingViewController-Info.plist
+lSLF07#2@40"Process SlidingViewController-Info.plist317448218#317448218#0(0"0(0#0#87"/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController-Info.plist8624048672#690"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SlidingViewController-Info.plist -genpkginfo "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/ResourceRules.plist" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/Info.plist"0#
+
+CProcessPCH /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch.gch SlidingViewController_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317448218.478540
+e317448219.393320
+r1
+xProcessPCH
+x/var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch.gch
+xSlidingViewController_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile SlidingViewController_Prefix.pch317448218#317448219#0(0"0(0#0#87"/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController_Prefix.pch8626579968#2068"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv7" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController_Prefix.pch" -o /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-cmuetauyijkiabeohfabjroppmjr/SlidingViewController_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch.gch SlidingViewController_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317448218.477752
+e317448219.309034
+r1
+xProcessPCH
+x/var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch.gch
+xSlidingViewController_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile SlidingViewController_Prefix.pch317448218#317448219#0(0"0(0#0#87"/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController_Prefix.pch8627494144#2068"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-generated-files.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-own-target-headers.hmap" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-all-target-headers.hmap" -iquote "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController-project-headers.hmap" "-F/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/include" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources/armv6" "-I/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/DerivedSources" -c "/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController_Prefix.pch" -o /var/folders/Cf/Cfei18bhGm0FSyGBKg3EvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SlidingViewController_Prefix-fuxlwyentvgxdkaoppfubzpolemz/SlidingViewController_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision" "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision"
+s317448219.499294
+e317448219.519166
+r1
+xProcessProductPackaging
+x/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision
+lSLF07#2@206"ProcessProductPackaging "/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision" build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision317448219#317448219#0(0"0(0#0#126"/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision8626939008#473"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cmotl/Library/MobileDevice/Provisioning Profiles/D3753462-9109-4151-A71D-D0B9F39B3D30.mobileprovision" -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent"
+s317448219.519273
+e317448219.538536
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent
+lSLF07#2@217"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent317448219#317448219#0(0"0(0#0#159"/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent8625980288#510"    cd "/Users/cmotl/Projects/New iPhone/SlidingViewController"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/SlidingViewController.build/Debug-iphoneos/SlidingViewController.build/SlidingViewController.xcent"0#
+
+CTouch "/Users/cmotl/Projects/New iPhone/SlidingViewController/build/Debug-iphoneos/SlidingViewController.app"
+r0
+

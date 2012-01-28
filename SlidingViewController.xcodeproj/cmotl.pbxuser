@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SlidingViewControllerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 680}}";
+			sepNavSelRange = "{227, 0}";
+			sepNavVisRange = "{0, 523}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SlidingViewControllerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1027}}";
+			sepNavSelRange = "{813, 0}";
+			sepNavVisRange = "{169, 2098}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SlidingViewController */ = {
+		activeExec = 0;
+		executables = (
+			82FAFC2512EBDED5003F12AF /* SlidingViewController */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 82FAFC2512EBDED5003F12AF /* SlidingViewController */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SlidingViewController */;
+		addToTargets = (
+		);
+		breakpoints = (
+			82FAFCED12EBFD7E003F12AF /* SlidingViewController.m:68 */,
+		);
+		codeSenseManager = 82FAFC2B12EBDEF3003F12AF /* Code sense */;
+		executables = (
+			82FAFC2512EBDED5003F12AF /* SlidingViewController */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					912,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319823473;
+			PBXWorkspaceStateSaveDate = 319823473;
+		};
+		perUserProjectItems = {
+			829E11E812F5E4B600D066B0 /* PlistBookmark */ = 829E11E812F5E4B600D066B0 /* PlistBookmark */;
+			829E11ED12F5E4B600D066B0 /* PBXTextBookmark */ = 829E11ED12F5E4B600D066B0 /* PBXTextBookmark */;
+			829E11EE12F5E4B600D066B0 /* PBXTextBookmark */ = 829E11EE12F5E4B600D066B0 /* PBXTextBookmark */;
+			829E11EF12F5E4B600D066B0 /* PBXTextBookmark */ = 829E11EF12F5E4B600D066B0 /* PBXTextBookmark */;
+			829E11F012F5E4B600D066B0 /* PBXTextBookmark */ = 829E11F012F5E4B600D066B0 /* PBXTextBookmark */;
+			829E11FD12F5E4D500D066B0 /* PBXTextBookmark */ = 829E11FD12F5E4D500D066B0 /* PBXTextBookmark */;
+			829E11FE12F5E4D500D066B0 /* PBXTextBookmark */ = 829E11FE12F5E4D500D066B0 /* PBXTextBookmark */;
+			829E123712F5E94500D066B0 /* PBXTextBookmark */ = 829E123712F5E94500D066B0 /* PBXTextBookmark */;
+			829E123812F5E94500D066B0 /* PBXTextBookmark */ = 829E123812F5E94500D066B0 /* PBXTextBookmark */;
+			829E123912F5E94500D066B0 /* PBXTextBookmark */ = 829E123912F5E94500D066B0 /* PBXTextBookmark */;
+			82D6EF3A13101EB1009D7CEA /* PBXTextBookmark */ = 82D6EF3A13101EB1009D7CEA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 82FAFC2A12EBDEF3003F12AF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 675}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 403}";
+			sepNavWindowFrame = "{{61, 257}, {1351, 724}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* SlidingViewController_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 680}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 211}";
+		};
+	};
+	829E11E812F5E4B600D066B0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SlidingViewController-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmotl/Projects/New iPhone/SlidingViewController/SlidingViewController-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	829E11ED12F5E4B600D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC4512EBE61D003F12AF /* SlidingViewDelegate.h */;
+		name = "SlidingViewDelegate.h: 10";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	829E11EE12F5E4B600D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SlidingViewControllerAppDelegate.m */;
+		name = "SlidingViewControllerAppDelegate.m: 28";
+		rLen = 0;
+		rLoc = 813;
+		rType = 0;
+		vrLen = 2098;
+		vrLoc = 169;
+	};
+	829E11EF12F5E4B600D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SlidingViewControllerAppDelegate.h */;
+		name = "SlidingViewControllerAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	829E11F012F5E4B600D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* SlidingViewController_Prefix.pch */;
+		name = "SlidingViewController_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 0;
+	};
+	829E11FD12F5E4D500D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	829E11FE12F5E4D500D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC4212EBE5AF003F12AF /* SlidingView.h */;
+		name = "SlidingView.h: 19";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 0;
+	};
+	829E123712F5E94500D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC4312EBE5AF003F12AF /* SlidingView.m */;
+		name = "SlidingView.m: 38";
+		rLen = 0;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 0;
+	};
+	829E123812F5E94500D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC3F12EBE394003F12AF /* SlidingViewController.h */;
+		name = "SlidingViewController.h: 17";
+		rLen = 6;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	829E123912F5E94500D066B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC4012EBE394003F12AF /* SlidingViewController.m */;
+		name = "SlidingViewController.m: 33";
+		rLen = 0;
+		rLoc = 977;
+		rType = 0;
+		vrLen = 1764;
+		vrLoc = 497;
+	};
+	82D6EF3A13101EB1009D7CEA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82FAFC4012EBE394003F12AF /* SlidingViewController.m */;
+		name = "SlidingViewController.m: 28";
+		rLen = 0;
+		rLoc = 732;
+		rType = 0;
+		vrLen = 1764;
+		vrLoc = 497;
+	};
+	82FAFC2512EBDED5003F12AF /* SlidingViewController */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SlidingViewController;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	82FAFC2A12EBDEF3003F12AF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82FAFC2B12EBDEF3003F12AF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	82FAFC3F12EBE394003F12AF /* SlidingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 670}}";
+			sepNavSelRange = "{396, 6}";
+			sepNavVisRange = "{0, 436}";
+		};
+	};
+	82FAFC4012EBE394003F12AF /* SlidingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1690}}";
+			sepNavSelRange = "{732, 0}";
+			sepNavVisRange = "{497, 1764}";
+		};
+	};
+	82FAFC4212EBE5AF003F12AF /* SlidingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 675}}";
+			sepNavSelRange = "{291, 0}";
+			sepNavVisRange = "{0, 584}";
+		};
+	};
+	82FAFC4312EBE5AF003F12AF /* SlidingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 670}}";
+			sepNavSelRange = "{699, 0}";
+			sepNavVisRange = "{0, 730}";
+			sepNavWindowFrame = "{{107, 215}, {1351, 724}}";
+		};
+	};
+	82FAFC4512EBE61D003F12AF /* SlidingViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 680}}";
+			sepNavSelRange = "{181, 0}";
+			sepNavVisRange = "{0, 237}";
+		};
+	};
+	82FAFCED12EBFD7E003F12AF /* SlidingViewController.m:68 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 82FAFC4012EBE394003F12AF /* SlidingViewController.m */;
+		functionName = "-gestureRecognizer:shouldReceiveTouch:";
+		hitCount = 13;
+		ignoreCount = 0;
+		lineNumber = 68;
+		location = SlidingViewController;
+		modificationTime = 317457205.380062;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8D1107310486CEB800E47090 /* SlidingViewController-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 278}, {1351, 724}}";
+		};
+	};
+}
