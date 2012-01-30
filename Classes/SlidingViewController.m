@@ -10,6 +10,10 @@
 
 #define SLIDING_VIEW_VISIBLE_HEIGHT 40
 #define SLIDING_VIEW_HEIGHT 200
+#define SLIDING_VIEW_RANGE (SLIDING_VIEW_HEIGHT-SLIDING_VIEW_VISIBLE_HEIGHT)
+
+#define SLID_UP_Y_COORDINATE (480-(SLIDING_VIEW_HEIGHT/2))
+#define SLID_DOWN_Y_COORDINATE (480+(SLIDING_VIEW_HEIGHT/2)-SLIDING_VIEW_VISIBLE_HEIGHT)
 
 typedef enum {
 	UP, DOWN
@@ -140,6 +144,22 @@ typedef enum {
         translatedPoint.y = 480 + SLIDING_VIEW_HEIGHT/2 - SLIDING_VIEW_VISIBLE_HEIGHT;
     }
     [[sender view] setCenter:translatedPoint];
+    
+    int y_position_claibrated = (int)translatedPoint.y - SLID_UP_Y_COORDINATE;
+    float percentage_through_slide;
+    
+    if(direction == UP)
+    {
+        percentage_through_slide = (float)y_position_claibrated/SLIDING_VIEW_RANGE;
+    }
+    else
+    {
+        percentage_through_slide = (float)(SLIDING_VIEW_RANGE-y_position_claibrated)/SLIDING_VIEW_RANGE;
+    }
+
+    printf("sliding view range %d\n", SLIDING_VIEW_RANGE);
+    printf("y_position_calibrated: %d\n", y_position_claibrated);
+    printf("Percentage through slide: %f\n", percentage_through_slide);
     
     if([(UIPanGestureRecognizer*)sender state] == UIGestureRecognizerStateEnded) {
         /*
